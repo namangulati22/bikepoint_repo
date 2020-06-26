@@ -8,7 +8,7 @@ def script():
     try:
         #connecting database
         result = requests.get('https://api.tfl.gov.uk/bikepoint')
-        db = mysql.connector.connect(user='root', password='Naman$360',
+        db = mysql.connector.connect(user='', password='',#user & #password
                                      host='127.0.0.1', database="bikepoint")
         cursor = db.cursor()
         
