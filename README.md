@@ -14,6 +14,7 @@ or just simply use mysql workbench and load this script and press execute button
 
 ## second run the python code
 ### run the updating script
+in this file change your username and password for mysql
 then using python compiler run the given bikepoint.py file 
 which is a script which once executed will update the database(created in upper step) every 5 minutes until program terminated.
 ### run queries on location
